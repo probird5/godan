@@ -1,0 +1,173 @@
+{
+  "city": "Mountain View",
+  "region_code": "CA",
+  "os": null,
+  "tags": [],
+  "ip": 134744072,
+  "isp": "Google LLC",
+  "area_code": null,
+  "longitude": -122.0775,
+  "last_update": "2024-02-09T18:42:44.027310",
+  "ports": [443, 53],
+  "latitude": 37.4056,
+  "hostnames": ["dns.google"],
+  "country_code": "US",
+  "country_name": "United States",
+  "domains": ["dns.google"],
+  "org": "Google LLC",
+  "data": [
+    {
+      "hash": -553166942,
+      "opts": {},
+      "timestamp": "2024-02-09T17:03:30.033582",
+      "isp": "Google LLC",
+      "data": "\nRecursion: enabled",
+      "_shodan": {
+        "region": "na",
+        "module": "dns-tcp",
+        "ptr": true,
+        "options": {},
+        "id": "bf06a2ac-0060-46b0-a736-f25b36d063d7",
+        "crawler": "879460e0c029fc5ab161dc9d7b8a17ac7c5a637b"
+      },
+      "port": 53,
+      "hostnames": ["dns.google"],
+      "location": {
+        "city": "Mountain View",
+        "region_code": "CA",
+        "area_code": null,
+        "longitude": -122.0775,
+        "country_name": "United States",
+        "country_code": "US",
+        "latitude": 37.4056
+      },
+      "dns": {
+        "resolver_hostname": null,
+        "recursive": true,
+        "resolver_id": null,
+        "software": null
+      },
+      "ip": 134744072,
+      "domains": ["dns.google"],
+      "org": "Google LLC",
+      "os": null,
+      "asn": "AS15169",
+      "transport": "tcp",
+      "ip_str": "8.8.8.8"
+    },
+    {
+      "hash": -553166942,
+      "opts": {
+        "raw": "34ef81820001000000000000026964067365727665720000100003"
+      },
+      "timestamp": "2024-02-09T18:42:44.027310",
+      "isp": "Google LLC",
+      "data": "\nRecursion: enabled",
+      "_shodan": {
+        "region": "eu",
+        "module": "dns-udp",
+        "ptr": true,
+        "options": {},
+        "id": "dc9c9f8b-f6f2-42c3-8cdf-77ed1fad345c",
+        "crawler": "487814a778c983e2dcef234806292d88c5cbf3ec"
+      },
+      "port": 53,
+      "hostnames": ["dns.google"],
+      "location": {
+        "city": "Mountain View",
+        "region_code": "CA",
+        "area_code": null,
+        "longitude": -122.0775,
+        "country_name": "United States",
+        "country_code": "US",
+        "latitude": 37.4056
+      },
+      "dns": {
+        "resolver_hostname": null,
+        "recursive": true,
+        "resolver_id": null,
+        "software": null
+      },
+      "ip": 134744072,
+      "domains": ["dns.google"],
+      "org": "Google LLC",
+      "os": null,
+      "asn": "AS15169",
+      "transport": "udp",
+      "ip_str": "8.8.8.8"
+    },
+    {
+      "http": {
+        "status": 200,
+        "robots_hash": null,
+        "redirects": [
+          {
+            "host": "wildcard.fortilab.de",
+            "data": "HTTP/1.1 302 Found\r\nX-Content-Type-Options: nosniff\r\nAccess-Control-Allow-Origin: *\r\nLocation: https://dns.google/\r\nDate: Fri, 09 Feb 2024 18:03:16 GMT\r\nContent-Type: text/html; charset=UTF-8\r\nServer: HTTP server (unknown)\r\nContent-Length: 216\r\nX-XSS-Protection: 0\r\nX-Frame-Options: SAMEORIGIN\r\nAlt-Svc: h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000\r\n\r\n",
+            "location": "/"
+          }
+        ],
+        "securitytxt": null,
+        "title_hash": -375316728,
+        "title": "DNS-over-HTTPS - Wikipedia",
+        "robots": null,
+        "hash": -1065567820,
+        "html_hash": -1891061838
+      },
+      "ssl": {
+        "cert": {
+          "sig_alg": "SHA256withRSA",
+          "validation": "issued",
+          "issuer": "Google Trust Services",
+          "expires": "2024-08-17T19:29:11Z",
+          "fingerprint": "SHA-256:34:EF:81:82:82:00:01:00:00:00:00:00:00:00:00:02:69:D0:06:73:65:72:76:E2"
+        },
+        "chain": [
+          {
+            "subject": "dns.google",
+            "sig_alg": "SHA256withRSA",
+            "version": 3,
+            "not_before": "2023-08-17T19:29:11Z",
+            "issuer": "Google Trust Services",
+            "fingerprint": "SHA-256:34:EF:81:82:82:00:01:00:00:00:00:00:00:00:00:02:69:D0:06:73:65:72:76:E2",
+            "not_after": "2024-08-17T19:29:11Z"
+          }
+        ],
+        "versions": ["TLSv1.2"],
+        "cipher": "TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256",
+        "dhparams": null
+      },
+      "tags": ["https"],
+      "timestamp": "2024-02-09T18:42:44.027310",
+      "isp": "Google LLC",
+      "data": "HTTP/1.1 302 Found\r\nX-Content-Type-Options: nosniff\r\nAccess-Control-Allow-Origin: *\r\nLocation: https://dns.google/\r\nDate: Fri, 09 Feb 2024 18:03:16 GMT\r\nContent-Type: text/html; charset=UTF-8\r\nServer: HTTP server (unknown)\r\nContent-Length: 216\r\nX-XSS-Protection: 0\r\nX-Frame-Options: SAMEORIGIN\r\nAlt-Svc: h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000\r\n\r\n",
+      "_shodan": {
+        "region": "eu",
+        "module": "http",
+        "ptr": true,
+        "options": {},
+        "id": "e5eeef65-d1f5-4b7d-ae80-474ef708c256",
+        "crawler": "7752d14ab20cf9d12b178a07c2d2b0121e1813a6"
+      },
+      "port": 443,
+      "hostnames": ["dns.google"],
+      "location": {
+        "city": "Mountain View",
+        "region_code": "CA",
+        "area_code": null,
+        "longitude": -122.0775,
+        "country_name": "United States",
+        "country_code": "US",
+        "latitude": 37.4056
+      },
+      "domains": ["dns.google"],
+      "org": "Google LLC",
+      "os": null,
+      "asn": "AS15169",
+      "transport": "tcp",
+      "ip_str": "8.8.8.8"
+    }
+  ],
+  "asn": "AS15169"
+}
+
